@@ -28,6 +28,8 @@ public class Cheers {
 
                         }
                 }
+                System.out.println("What does that spell?");
+
 
                 for(i=0;i<lengthP;i++)
                 {

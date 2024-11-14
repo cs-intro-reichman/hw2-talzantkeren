@@ -7,7 +7,29 @@ public class TimeCalc {
         int Totalhours = Totalminutes/60;
         int newHour= Totalhours%24;
         int newminutes=Totalminutes-(Totalhours*60);
-        System.out.println(newHour+":"+newminutes);
+        String minu="";
+        String hou="";
+        if (newminutes<10)
+        {
+             minu="0"+newminutes+"";
+
+        }
+        else{
+            minu=newminutes+"";
+
+        }
+        if (newHour<10)
+        {
+             hou="0"+newHour+"";
+
+        }
+        else{
+            hou=newHour+"";
+
+        }
+        
+
+        System.out.println(hou+":"+minu);
 
 
     }

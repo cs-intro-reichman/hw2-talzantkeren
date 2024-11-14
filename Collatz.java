@@ -8,7 +8,7 @@ public class Collatz {
 		int t=2;
 		if(c=='v')
 		{
-			System.out.println("1 4 2 1 (4) ");
+			System.out.println("1 4 2 1 (4)");
 			for(t=2;t<n+1;t++)
 			{
 				int a=1;
@@ -29,12 +29,12 @@ public class Collatz {
 				}
 				System.out.println("1"+" ("+a+")");
 			}
-			System.out.println("Every one of the first "+n+" hailstone sequences reached 1");
+			System.out.println("Every one of the first "+n+" hailstone sequences reached 1.");
 				
 
 	    }
 		 else{
-			System.out.println("Every one of the first "+n+" hailstone sequences reached 1");
+			System.out.println("Every one of the first "+n+" hailstone sequences reached 1.");
 		 }
 	}
 }
